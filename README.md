@@ -2,7 +2,9 @@
 
 This program recreate the sokoban game in a terminal using the library `ncurses`.
 
-![Sokoban game](asset/Sokoban.gif)
+<div align=center>
+<img src="asset/Sokoban.gif">
+</div>
 
 ## Game goal
 
