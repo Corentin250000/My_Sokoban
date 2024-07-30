@@ -37,7 +37,7 @@ You can create yourself your map, using these **rules**:
 
 - There must be the **same number** of boxes and boxes' locations.
 - There must be **only one player**, so one 'P' in all map.
-- There must not be **any holes** in walls around the maps.
+- There must not be **any holes** in walls around the map.
 - You must use only **spaces**, **'#'**, **'O'** and **'P'**.
 
 ## How to play ?
