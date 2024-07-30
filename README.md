@@ -45,3 +45,5 @@ You can create yourself your map, using these **rules**:
 As soon as the game is launched, you can **move the player** with **arrows keys**.
 
 You can also **reset the game** using **spacebar**.
+
+If you need to **stop playing**, you can press **escape** to quit the game.
