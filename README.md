@@ -14,8 +14,6 @@ If all boxes are on their locations, you **win** !
 
 But, if there are no boxes moves available (boxes stuck in corners for instance), you **lose** !
 
-**_Warning, Due to a flaw in the code, if no movement is possible with at least one box stuck next to another stuck box, the game will never end._**
-
 ## How to launch the game ?
 
 **Download** the project, make sure you have the `ncurses` library installed. If it is not installed, **install it** with this command for **Fedora** ([commands for other Linux distributions](https://www.cyberciti.biz/faq/linux-install-ncurses-library-headers-on-debian-ubuntu-centos-fedora/)):

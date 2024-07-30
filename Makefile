@@ -10,6 +10,7 @@ SRC	=	src/main.c			\
 		src/swaps.c			\
 		src/move_player.c	\
 		src/print_str.c		\
+		src/check_lose.c	\
 
 OBJ	=	$(SRC:.c=.o)
 

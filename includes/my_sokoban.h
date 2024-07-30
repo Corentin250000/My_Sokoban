@@ -44,6 +44,12 @@ char **reset_map(char **map, char **original);
 char **replace_storage(char **map, char **original);
 char **move_player(char **map, int key_pressed, char **original);
 
+/* check_lose.c */
+
+int is_blocked_walls(char **map, int i, int j, int nb_blocked);
+int is_blocked_box(char **map, int i, int j, int nb_blocked);
+int check_lose(char **map);
+
 /* main.c */
 
 char *my_strdup(char *str);

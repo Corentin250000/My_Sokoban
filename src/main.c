@@ -86,29 +86,6 @@ static int check_win(char **map, char **original)
     return 0;
 }
 
-static int check_lose(char **map)
-{
-    int i = 0;
-    int j = 0;
-    int nb_X = 0;
-    int nb_blocked = 0;
-
-    for (; map[i]; j++) {
-        if (map[i][j] == 'X')
-            nb_X++;
-        if (map[i][j] == 'X' && ((map[i - 1][j] == '#' && map[i][j - 1] == '#')
-        || (map[i - 1][j] == '#' && map[i][j + 1] == '#') ||
-        (map[i + 1][j] == '#' && map[i][j + 1] == '#') ||
-        (map[i + 1][j] == '#' && map[i][j - 1] == '#')))
-            nb_blocked++;
-        if (map[i][j] == '\n') {
-            j = 0;
-            i++;
-        }
-    }
-    return nb_X == nb_blocked;
-}
-
 int game(int ac, char **av)
 {
     char *buffer;
